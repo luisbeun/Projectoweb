@@ -75,11 +75,12 @@ button{
 .container {
     display: flex;
     justify-content: center;
-    gap: 52px;
-    height: 800px;
+    gap: 15px;
+    height: 200px;
     flex-shrink: 0;
     align-items: flex-start;
     justify-content: center;
+    flex-wrap: wrap;
   }
   
   .texto {
