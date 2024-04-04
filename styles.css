@@ -53,6 +53,8 @@ button{
     padding: 8px 16px;
     margin-right: auto;
     flex-basis: auto;
+    color: white;
+    cursor:pointer
 }
 .importantes{
     display: flex;
@@ -106,4 +108,72 @@ button{
     display: flex;
 color: #2b313d;
 justify-content: center;
+padding: 12px;
   }
+  .parte4{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.text4{
+    color: #1F2937;
+    width: 70%;
+    font-size: 36px;
+    font-style: italic;
+    padding: 0 5.1em;
+    max-width: 800px;
+}
+.textoabajo4{
+    color:#1F2937;
+    padding-bottom: 1em;
+    letter-spacing: 0.07em;
+    text-align:end;
+    font-weight: bold;
+    font-size: 36px;
+    width: 69%;
+    padding: 0 5.1em;
+}
+.parte5{
+    height: 140px;
+    display: flex;
+    background-color: #fefeff;
+    justify-content: center;
+    padding: 60px;
+}
+.texto5{
+    display: flex;
+    color: #E5E7EB;
+    width: 900px;
+    background-color:#3882F6;
+    padding:26px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boton2{
+    border: 2px solid #ecf0ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subsection.header2{
+    max-width: 500px;
+    font-size: 25px;
+    flex-shrink: 0;
+    margin: auto;
+    align-items: flex-start;
+}
+.footer{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
